@@ -1,5 +1,5 @@
 meaning = 42
-print('')
+print("")
 
 # if meaning > 10:
 #     print('Right on!')
@@ -7,4 +7,9 @@ print('')
 #     print('Not today')
 
 # Ternary Operator
-print('Right on!') if meaning > 10 else print('Not today')
+print("Right on!") if meaning > 10 else print("Not today")
+
+kaka = int(input("Choisir un pour cuire le kaka."))
+
+if kaka < 2:
+    print("Le kaka est cuit.")
